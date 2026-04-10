@@ -46,7 +46,10 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
         </button>
         <h1 className="text-2xl font-bold text-foreground">Let's Organize Your Thoughts</h1>
       </div>
-      <p className="text-muted-foreground text-sm mb-4 ml-11">Sorting reduces overwhelm.</p>
+      <p className="text-muted-foreground text-sm mb-1 ml-11">Sorting reduces overwhelm.</p>
+      <p className="text-muted-foreground text-xs mb-4 ml-11 bg-muted/50 rounded-lg px-3 py-2">
+        👆 Drag each thought and drop it into the bucket that fits best — or tap the <span className="font-medium">+ button</span> inside a bucket to assign it.
+      </p>
 
       {/* Clarity bar */}
       <div className="mb-5 animate-fade-in">
